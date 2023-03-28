@@ -73,6 +73,6 @@ public class Calculadora {
             default:
                 System.out.println("El operador ingresado no es válido.");
                 break;
-        }
+        } 
     }
 }
