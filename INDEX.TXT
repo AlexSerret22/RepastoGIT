@@ -4,5 +4,28 @@ public class HolaMundo
    {
    public static void main(String[] args) {
       System.out.println("¡Hola, Mundo!");
+   } 
+}
+
+Este es el primer contenido de prueba
+suma de 2 numeros ---------------------------
+
+import java.util.Scanner;
+
+public class SumaDosNumeros 
+{
+   public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+      int num1, num2, resultado;
+      
+      System.out.print("Ingrese el primer número: ");
+      num1 = input.nextInt();
+      
+      System.out.print("Ingrese el segundo número: ");
+      num2 = input.nextInt();
+      
+      resultado = num1 + num2;
+      
+      System.out.println("La suma de " + num1 + " y " + num2 + " es: " + resultado);
    }
 }
