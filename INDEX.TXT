@@ -7,7 +7,6 @@ public class HolaMundo
    } 
 }
 
-Este es el primer contenido de prueba
 suma de 2 numeros ---------------------------
 
 import java.util.Scanner;
