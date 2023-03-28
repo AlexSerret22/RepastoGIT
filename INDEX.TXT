@@ -28,3 +28,51 @@ public class SumaDosNumeros
       System.out.println("La suma de " + num1 + " y " + num2 + " es: " + resultado);
    }
 }
+
+CAMBIO QUE NO QUIERO SUBIR
+
+import java.util.Scanner;
+
+public class Calculadora {
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+        double num1, num2, resultado;
+        char operador;
+
+        System.out.println("Ingrese el primer número: ");
+        num1 = entrada.nextDouble();
+
+        System.out.println("Ingrese el segundo número: ");
+        num2 = entrada.nextDouble();
+
+        System.out.println("Ingrese el operador (+, -, *, /): ");
+        operador = entrada.next().charAt(0);
+
+        switch (operador) {
+            case '+':
+                resultado = num1 + num2;
+                System.out.println("El resultado es: " + resultado);
+                break;
+            case '-':
+                resultado = num1 - num2;
+                System.out.println("El resultado es: " + resultado);
+                break;
+            case '*':
+                resultado = num1 * num2;
+                System.out.println("El resultado es: " + resultado);
+                break;
+            case '/':
+                if (num2 == 0) {
+                    System.out.println("No se puede dividir entre cero.");
+                } else {
+                    resultado = num1 / num2;
+                    System.out.println("El resultado es: " + resultado);
+                }
+                break;
+            default:
+                System.out.println("El operador ingresado no es válido.");
+                break;
+        }
+    }
+}
