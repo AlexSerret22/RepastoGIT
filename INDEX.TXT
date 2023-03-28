@@ -27,6 +27,7 @@ public class SumaDosNumeros
       
       System.out.println("La suma de " + num1 + " y " + num2 + " es: " + resultado);
    }
+<<<<<<< HEAD
 }
 
 CAMBIO QUE NO QUIERO SUBIR
